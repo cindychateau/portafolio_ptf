@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+main{
+    background-color: rgb(38, 28, 105);
+    padding: 20px;
+}
+
+.information_jayne{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.jayne_photo{
+    width: 300px;
+    border: 5px solid gray;
+    /* flex: 2; */
+}
+
+.description{
+    /* flex: 3; */
+    background-color: rgb(218, 218, 218);
+    /* padding: 10px; */
+}
+
+.subtitle_white{
+    background-color: rgb(96, 96, 96);
+    color: white;
+    padding: 15px;
+}
+
+.description_text, .description_link{
+    margin: 15px 15px 0 15px;
+}
